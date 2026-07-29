@@ -186,16 +186,20 @@ button:hover{
         position: relative;
     }
 
-    .her{
+    .hero{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .image img{
-        width: 100%;
+    .hero-p{
+        display: none;
+    font-size: clamp(.5rem, 5vw, 2.5rem);
+    color: white;
+    max-width: 60%;
     }
+    
 
     #header-nav{
     display: none;
@@ -207,16 +211,16 @@ button:hover{
     padding: 2rem 1rem;
     z-index: 7;
     border-radius: 1rem;
-}
+    }
 
-#header-nav.open{
+    #header-nav.open{
     display: flex;}
 
     #menu{
     display: block;
     font-size: 2.5rem;
     cursor: pointer;
-}
+    }
 }
 
 .services h2{
@@ -257,9 +261,9 @@ button:hover{
 .gallery{
     display: flex;
     flex-direction: column;
-    gap: 3.2rem;
+    gap: 3rem;
      background-color:lightgray ;
-     padding: 4rem;
+     padding:4rem;
      border-radius: 2rem;
 }
 
