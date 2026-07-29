@@ -76,7 +76,7 @@ p{
     flex-direction: column;
     padding: 3rem 0;
     justify-content: space-between;
-    gap:clamp(.01rem, 10vh, 2.5rem) ;
+    gap:clamp(.01rem, 10vh, 5rem) ;
     align-items: end;
 
     background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.35)), url("images/heronew.png.jpg");
